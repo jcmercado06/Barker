@@ -26,20 +26,20 @@ With the following features:
 
 ## Front-end
 
-* [] Create client folder
-* [] Setup index.html
-* [] Bring in Skeleton CSS
+* [x] Create client folder
+* [x] Setup index.html
+* [x] Bring in Skeleton CSS
   * http://getskeleton.com/
   * https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
 * [x] Create Header
 * [x] Create form
-  * [] Name
-  * [] Content
-  * [] u-full-width to both inputs
+  * [x] Name
+  * [x] Content
+  * [x] u-full-width to both inputs
 * [x] Listen for form submit
-* [] Hide the form
-* [] Show loading spinner
-* [] Get data from form and log it
+* [x] Hide the form
+* [x] Show loading spinner
+* [x] Get data from form and log it
 * ✅ Get user input on the Client
 * ✅ Hide/Show elements on the client
 
