@@ -4,8 +4,8 @@ A basic twitter clone built to demonstrate the full stack 🥞 (client, server, 
 
 With the following features:
 
-* Dogs can send a mew 😸✉️
-* Dogs can see all mews that have been sent 😻🗂
+* Dogs can send a bark 😸✉️
+* Dogs can see all barks that have been sent 😻🗂
 
 ![example-site](example-site.gif)
 
@@ -31,7 +31,7 @@ With the following features:
 * [] Bring in Skeleton CSS
   * http://getskeleton.com/
   * https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
-* [] Create Header
+* [x] Create Header
 * [] Create form
   * [] Name
   * [] Content
@@ -50,12 +50,12 @@ With the following features:
 * [] npm install express morgan
 * [] Setup index.js
 * [] Add GET / route
-* [] Add POST /mews route
+* [] Add POST /barks route
   * [] log out req.body
 
 ## Front-end
 
-* [] fetch POST /mews with form data
+* [] fetch POST /barks with form data
 * [] See the CORS error and revel in this moment
 * ✅ Send user input from the client with fetch to the server
 
@@ -73,7 +73,7 @@ With the following features:
 * [] Setup DB Connection
   * [] npm install monk
   * [] connect to db
-  * [] create document collection (mews)
+  * [] create document collection (barks)
 * [] If Valid
   * [] Create mew object with
     * [] name, content, created_date
@@ -89,19 +89,19 @@ With the following features:
 
 ## Back-end
 
-* [] GET /mews
-  * [] Respond with mews from DB
+* [] GET /barks
+  * [] Respond with barks from DB
 * ✅ Retrieve data from a database on the Server
 
 ## Front-end
 
-* [] fetch GET /mews
+* [] fetch GET /barks
   * [] Iterate over array
   * [] Append each to page
   * [] Reverse before appending
   * [] Show the form
   * [] Hide loading spinner
-* [ ] fetch GET /mews after creating a mew
+* [ ] fetch GET /barks after creating a mew
 * ✅ Retrieve data from a server on the client using Fetch
 * ✅ Hide/Show elements on the client
 * ✅ Add elements to the page on the client
@@ -133,8 +133,8 @@ With the following features:
   * Don't just have the user enter their name
   * Sign up/Login
 * User Profiles
-  - Only show mews from a given user
-* Search Mews
+  - Only show barks from a given user
+* Search barks
 * Hashtags
 * User @mentions
-* Realtime feed of mews
+* Realtime feed of barks
